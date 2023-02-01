@@ -1,0 +1,44 @@
+
+/* Normalized */
+*, *::after{ margin: 0; padding: 0; box-sizing: inherit; }
+
+  @import url('https://fonts.googleapis.com/css2?family=Gochi+Hand&family=PT+Serif:ital,wght@1,700&display=swap');
+
+
+body{
+    background-color: #f4f5f6;
+    height: 100vh;
+    display: flex;
+    flex-flow: column wrap;
+    align-items: center;
+    justify-content: center;
+
+}
+#displayBox, button{ border: 3px solid #33333322;}
+
+#displayBox{
+    background-color: #f4f5f64e;
+    padding: 20px;
+    border-radius: 14px;
+    width: 40%;
+
+}
+h1,button { font-family: 'Gochi Hand', cursive;}
+
+header > h1 {
+    
+    font-family: 'PT Serif', serif;
+    font-size: 4rem;
+    text-align: center;
+    filter: drop-shadow(0 0 1.0rem #342f2f);
+}
+
+button{
+    font-size: 2.0rem;
+    font-weight: 500;
+    padding: 10px;
+    border-radius: 14px;
+    width: 80%;
+    margin: 0 auto;
+}
+
